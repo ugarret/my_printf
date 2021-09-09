@@ -1,0 +1,70 @@
+ #include <stdio.h>
+ #include "my_printf.h"
+ int		main()
+ {
+ 	int i = 0;
+ 	int j = 0;
+	// char ncm_p[]="hi low";
+
+ 	// i = printf("chislo %X\n", 4294967284u);
+ 	// printf("%d\n", i);
+ 	// j = my_printf("chislo %X\n", 4294967284);
+ 	// printf("%d\n", j);
+ 	// i = printf("%p\n", NULL);
+ 	// printf("%d\n", i);
+ 	// j = my_printf("%p\n", NULL);
+ 	// printf("%d\n", j);
+	// i = printf("%c\n", 'c');
+ 	// printf("%d\n", i);
+ 	// j = my_printf("%c\n", 'c');
+ 	// printf("%d\n", j);
+	// i = printf("%05%\n");
+ 	// printf("%d\n", i);
+ 	// j = my_printf("%05%\n");
+ 	// printf("%d\n", j);
+	// i = printf("%.01s\n", "");
+ 	// printf("%d\n", i);
+ 	// j = my_printf("%.01s\n", "");
+ 	// printf("%d\n", j);
+	// i = printf("%-3.1s\n", "");
+ 	// printf("%d\n", i);
+ 	// j = my_printf("%3.1s\n", "");
+ 	// printf("%d\n", j);
+	// i = printf("%\n");
+	// printf("%d\n", i);
+ 	// j = my_printf("%\n");
+ 	// printf("%d\n", j);
+	// i = printf("%5p\n", NULL);
+ 	// printf("%d\n", i);
+ 	// j = my_printf("%5p\n", NULL);
+ 	// printf("%d\n", j);
+	// i = printf("|%-*c%-78.197s%-*.u" ,-23,1,"aV\\M;%D\v&8L?Gyv?-bu]%eeOQQoU|",136,1563143492u);
+ 	// printf("%d\n", i);
+ 	// j = my_printf("|%-*c%-78.197s%-*.u" ,-23,1,"aV\\M;%D\v&8L?Gyv?-bu]%eeOQQoU|",136,1563143492u);
+ 	// printf("%d\n", j);
+	// i = printf("|%20.*s|\n", 0, "Hello");
+ 	// printf("%d\n", i);
+ 	// j = my_printf("|%20.*s|\n", 0, "Hello");
+ 	// printf("%d\n", j);
+	// i = printf("%.p\n", &ncm_p);
+ 	// printf("%d\n", i);
+ 	// j = my_printf("%.p\n", &ncm_p);
+ 	// printf("%d\n", j);
+	// i = printf("|%-11.*d%--81.23%|%-188.33x%-26.*x|\n" ,-63, -1535668511,2054256819u,-132,379536675u);
+	// printf("%d\n", i);
+	// j = my_printf("|%-11.*d%--81.23%|%-188.33x%-26.*x|\n" ,-63, -1535668511,2054256819u,-132,379536675u);
+	// printf("%d\n", j);
+	// i = printf("%5.c", 'a');
+	// printf("%d\n", i);
+	// j = my_printf("%5.c", 'a');
+	// printf("%d\n", j);
+	i = printf("%.p", NULL);
+ 	printf("%d\n", i);
+ 	j = my_printf("%.p", NULL);
+ 	printf("%d\n", j);
+	// i = printf("%05%\n");
+ 	// printf("%d\n", i);
+ 	// j = my_printf("%05%\n");
+ 	// printf("%d\n", j);
+ 	return 0;
+ }
